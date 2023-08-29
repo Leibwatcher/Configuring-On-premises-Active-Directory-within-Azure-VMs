@@ -65,4 +65,10 @@ user: mydomain.com/username*
 
 ![Screenshot 2023-08-10 182444](https://github.com/Leibwatcher/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/137578446/72dc078a-e50b-4374-a967-48a13afcb351)
 
-Next, we can create and configure the Organizational units for the admins and employees in Actice Directory(AD)
+Next, we can create and configure the Organizational units for the admins and employees in Actice Directory(AD) while in DC-1. So in Active Directory Users and computers, right-click mydomain.com tab--->New---->Organizational Unit. Name it _Admin and repeat
+and make _EMPLOYEES. 
+
+![Screenshot 2023-08-29 185637](https://github.com/Leibwatcher/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/137578446/e119795e-c694-421b-9401-8841d5cd49a1)
+
+
+
