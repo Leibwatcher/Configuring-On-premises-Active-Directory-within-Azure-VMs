@@ -70,5 +70,12 @@ and make _EMPLOYEES.
 
 ![Screenshot 2023-08-29 185637](https://github.com/Leibwatcher/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/137578446/e119795e-c694-421b-9401-8841d5cd49a1)
 
+Right-click on _ADMIN and create a new employee, use the same password with "user_admin" Once the admin created, add "user_admin" to the "domain admins" security group".
+
+![Screenshot 2023-08-12 005937](https://github.com/Leibwatcher/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/137578446/81778209-f54c-4ae8-a268-0d1fdc6bde98)
+
+Log out and (mydomain.com\user) reconnect to dc-1 with your "mydomain.com\user_admin. My example mydomain.com\ayrin_admin
+
+![Screenshot 2023-08-11 202559](https://github.com/Leibwatcher/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/137578446/96fe6091-04b6-41a0-85ed-6d1dcc773155)
 
 
