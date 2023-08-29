@@ -24,11 +24,17 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Windows 10 (21H2)
 
 <h2>High-Level Deployment and Configuration Steps</h2>
+
 1. Domain Controller VM (Windows Server 2022) named “DC-1”
+
 2. Domain Controller’s NIC Private IP address to be static
+
 3. ICMPv4 (ping) was allowed on the Domain Controller
+
 4. Create an Admin and Normal User Account in Active Directory
+
 5. Join Client to domain
+
 6. Attempt to login Client-1 with one of the users
 
 
