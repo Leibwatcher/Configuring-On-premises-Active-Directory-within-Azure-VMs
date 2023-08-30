@@ -78,4 +78,22 @@ Log out and (mydomain.com\user) reconnect to dc-1 with your "mydomain.com\user_a
 
 ![Screenshot 2023-08-11 202559](https://github.com/Leibwatcher/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/137578446/96fe6091-04b6-41a0-85ed-6d1dcc773155)
 
+The next step is to go into VM Client-1 portal in Azure. We are going to join Client-1 to the domain(mydomain.com) We have to change the DNS on Client-1 Private IP address the same as the Domain. First, settings--->Network----> Network Interface the "NIC" click on DNS server and change the Private IP address to the Domain. Select "custom" enter the the IP address and click save.
 
+
+![Screenshot 2023-08-11 205050](https://github.com/Leibwatcher/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/137578446/da5c542f-f47b-4b3e-b3d7-37c142aeb654)
+
+Now with the DNS servers successfully change to the private IP address of DC-1, we can add the client-1 to the domain without any issue. You will get a message about the client being successfully added to the domain. To login to the client is by "System--->Rename This PC---> enter domain name--->select ok----> select apply. Then restart the systems.
+
+![Screenshot 2023-08-12 005937](https://github.com/Leibwatcher/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/137578446/7e824df6-40e8-4956-a957-2fb59a634394)
+
+This the message you'll be showen.
+
+![Screenshot 2023-08-12 010137](https://github.com/Leibwatcher/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/137578446/3e6b2174-85a4-4839-a288-5d6cc46abed0)
+
+With the Client-1 connected to the the domain, we now can create the clients and load them into "_employment OU" in the domain controller(DC-1). We'll need "Powershell_ISE" as the administrator. Click on file and cope and paste into the new file(White area) the pre-configured script. While the script is running, Employees will be made, Randomly.
+
+![Screenshot 2023-08-30 162829](https://github.com/Leibwatcher/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/137578446/d5dd9532-2cfb-42c5-8800-596bd927ab63)
+
+
+![Capture](https://github.com/Leibwatcher/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/137578446/3fb49df4-cfcc-4b75-9a2e-61e8bf4bb850)
