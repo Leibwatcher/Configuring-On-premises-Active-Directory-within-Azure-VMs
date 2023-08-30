@@ -4,11 +4,7 @@
 </p>
 
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
-
-
-<h2>Video Demonstration</h2>
-
+Here Creating thousands of accounts,passwords,and permissions in a single place. A good place to manage a ton devices. This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -103,4 +99,4 @@ With a random user you can now log into that users account.
 
 ![Screenshot 2023-08-12 012159](https://github.com/Leibwatcher/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/137578446/6a0e46d5-828c-4821-87f4-379b50c9cd9a)
 
-"To achieve your biggest dreams, to to do the small stuff".
+"To achieve your biggest dreams, work on the small things".
