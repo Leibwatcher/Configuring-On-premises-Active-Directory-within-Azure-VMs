@@ -95,5 +95,12 @@ With the Client-1 connected to the the domain, we now can create the clients and
 
 ![Screenshot 2023-08-30 162829](https://github.com/Leibwatcher/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/137578446/d5dd9532-2cfb-42c5-8800-596bd927ab63)
 
+The randomly generated employees are reflected into the Active Directory on the Domain Conttroller.
 
 ![Capture](https://github.com/Leibwatcher/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/137578446/3fb49df4-cfcc-4b75-9a2e-61e8bf4bb850)
+
+With a random user you can now log into that users account.
+
+![Screenshot 2023-08-12 012159](https://github.com/Leibwatcher/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/137578446/6a0e46d5-828c-4821-87f4-379b50c9cd9a)
+
+"To achieve your biggest dreams, to to do the small stuff".
